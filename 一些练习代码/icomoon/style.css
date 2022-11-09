@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?q4bhul');
+  src:  url('fonts/icomoon.eot?q4bhul#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?q4bhul') format('truetype'),
+    url('fonts/icomoon.woff?q4bhul') format('woff'),
+    url('fonts/icomoon.svg?q4bhul#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-webstorm:before {
+  content: "\e900";
+}
+.icon-wechat:before {
+  content: "\e901";
+  color: #7bb32e;
+}
+.icon-whatsapp:before {
+  content: "\e902";
+  color: #25d366;
+}
+.icon-wheniwork:before {
+  content: "\e903";
+  color: #51a33d;
+}
+.icon-wolfram:before {
+  content: "\e904";
+  color: #d10;
+}
+.icon-wolframlanguage:before {
+  content: "\e905";
+  color: #d10;
+}
+.icon-wolframmathematica:before {
+  content: "\e906";
+  color: #d10;
+}
+.icon-wordpress:before {
+  content: "\e907";
+  color: #21759b;
+}
+.icon-xero:before {
+  content: "\e908";
+  color: #13b5ea;
+}
+.icon-xfce:before {
+  content: "\e909";
+  color: #2284f2;
+}
+.icon-xiaomi:before {
+  content: "\e90a";
+  color: #fa6709;
+}
+.icon-xing:before {
+  content: "\e90b";
+  color: #006567;
+}
+.icon-ycombinator:before {
+  content: "\e90c";
+  color: #f0652f;
+}
+.icon-yelp:before {
+  content: "\e90d";
+  color: #d32323;
+}
+.icon-youtube:before {
+  content: "\e90e";
+  color: #f00;
+}
+.icon-zalando:before {
+  content: "\e90f";
+  color: #ff6900;
+}
+.icon-chevron-down:before {
+  content: "\e910";
+}
+.icon-chevron-left:before {
+  content: "\e911";
+}
+.icon-chevron-right:before {
+  content: "\e912";
+}
+.icon-chevron-up:before {
+  content: "\e913";
+}

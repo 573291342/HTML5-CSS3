@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>进度条案例</title>
+    <style>
+      /* .bar {
+            width: 150px;
+            height: 15px;
+            border: 1px solid red;
+            border-radius: 7px;
+            padding: 1px 0;
+        }
+        .bar_in {
+            width: 50%;
+            height: 100%;
+            border-radius: 2px;
+            background-color: red;
+            transition: all .7s;
+        }
+        .bar:hover .bar_in {
+            width: 100%;
+        } */
+      .box {
+        float: left;
+        width: 100px;
+        height: 100px;
+        margin-left: 100px;
+        overflow: hidden;
+        background-color: transparent;
+      }
+      .box2 {
+        width: 200px;
+        height: 100px;
+        background: url(../image/arr.png);
+        transition: all .7s;
+      }
+      .box .box2 img {
+        background: url(../image/arr.png);
+      }
+      .box .box2:hover{
+        margin-left: -100px;
+      }
+      .box3{
+        float: left;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="bar">
+        <div class="bar_in"></div>
+    </div> -->
+    <div class="box">
+      <div class="box2">
+      </div>
+    </div>
+    <div class="box3"></div>
+  </body>
+</html>

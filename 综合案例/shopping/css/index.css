@@ -1,0 +1,313 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin: 10px 0 0 220px;
+}
+.focus {
+    float: left;
+    width: 721px;
+    height: 100%;
+}
+.Newflash {
+    float: right;
+    width: 250px;
+    height: 100%;
+}
+.new {
+    width: 100%;
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+.new .new_hd {
+    height: 33px;
+    padding: 0 15px;
+    border-bottom: 1px dotted #e4e4e4;
+    color: #333;
+    line-height: 33px;
+}
+.new .new_hd h5 {
+    float: left;
+    font-size: 14px;
+}
+.new_hd .more::after {
+    font-family: 'icomoon';
+    content: '\e912';
+}
+.new .new_hd .more {
+    float: right;
+}
+.new .new_bd ul {
+    padding: 6px 0 6px 15px;
+}
+.new .new_bd ul li{
+    height: 24px;
+    line-height: 24px;
+    font-size: 12px;
+    color: #666;
+    /* 文字超出部分变成省略号 */
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.lifeservice {
+    width: 100%;
+    height: 209px;
+    border: 1px solid #e4e4e4;
+    border-top: none;
+    overflow: hidden;
+}
+.lifeservice ul li {
+    position: relative;
+    float: left;
+    width: 62px;
+    height: 70px;
+    padding-top: 12px;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+.lifeservice .reduce {
+    position: absolute;
+    top: 0;
+    right: -1px;
+    width: 12px;
+    height: 15px;
+    background-color: #589d5a;
+}
+.lifeservice .reduce p {
+    position: absolute;
+    top: -3px;
+    color: #fff;
+}
+.lifeservice .reduce .trangle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-bottom:4px solid #fff;
+}
+.lifeservice ul li:nth-child(4n) {
+    border-right: none;
+}
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 27px;
+}
+.lifeservice ul li:nth-child(1) i {
+    background: url(../images/icons.png) no-repeat -16px -14px;
+}
+.lifeservice ul li:nth-child(2) i {
+    background: url(../images/icons.png) no-repeat -79px -14px;
+}
+.lifeservice ul li:nth-child(3) i {
+    background: url(../images/icons.png) no-repeat -142px -14px;
+}
+.lifeservice ul li:nth-child(4) i {
+    background: url(../images/icons.png) no-repeat -205px -14px;
+}
+.lifeservice ul li:nth-child(5) i {
+    background: url(../images/icons.png) no-repeat -16px -84px;
+}
+.lifeservice ul li:nth-child(6) i {
+    background: url(../images/icons.png) no-repeat -79px -84px;
+}
+.lifeservice ul li:nth-child(7) i {
+    background: url(../images/icons.png) no-repeat -142px -84px;
+}
+.lifeservice ul li:nth-child(8) i {
+    background: url(../images/icons.png) no-repeat -205px -84px;
+}
+.lifeservice ul li:nth-child(9) i {
+    background: url(../images/icons.png) no-repeat -16px -156px;
+}
+.lifeservice ul li:nth-child(10) i {
+    background: url(../images/icons.png) no-repeat -79px -156px;
+}
+.lifeservice ul li:nth-child(11) i {
+    background: url(../images/icons.png) no-repeat -142px -156px;
+}
+.lifeservice ul li:nth-child(12) i {
+    background: url(../images/icons.png) no-repeat -205px -156px;
+}
+.bargain {
+    margin-top: 5px;
+    width: 100%;
+}
+/* 推荐模块 */
+.recom {
+    height: 163px;
+    margin-top: 12px;
+    background-color: #ebebeb;
+}
+.recom_hd {
+    float: left;
+    width: 205px;
+    height: 100%;
+    padding-top: 30px;
+    text-align: center;
+    background-color: #5c5251;
+}
+.recom_bd {
+    float: left;
+}
+.recom_bd ul li {
+    position: relative;
+    float: left;
+}
+.recom_bd ul li img {
+    width: 248px;
+    height: 163px;
+}
+.recom_bd ul li:nth-child(-n+3):after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+/* 猜你喜欢模块start */
+.love {
+    height: 263px;
+    margin-top: 30px;
+}
+.love_hd {
+    height: 30px;
+}
+.love_hd .llove_hd {
+    float: left;
+}
+.love_hd .rlove_hd {
+    padding-top: 4px;
+    float: right;
+}
+.love_hd .llove_hd i {
+    font-size: 18px;
+    color: #333;
+}
+.love_hd .rlove_hd i {
+    margin-right: 18px;
+    font-size: 12px;
+    color: #666;
+}
+.love_hd .rlove_hd i::after{
+    content: '\e912';
+    font-family: 'icomoon';
+}
+.love_bd ul {
+    height: 234px;
+    border: 1px solid #ededed;
+}
+.love_bd ul li {
+    position: relative;
+    float: left;
+    width: 199px;
+}
+.love_bd ul li div {
+    position: relative;
+    width: 200px;
+    height: 154px;
+}
+.love_bd ul li div img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+.love_bd ul li i {
+    display: block;
+    margin: 10px 34px;
+    font-size: 12px;
+    color: #666;
+}
+.love_bd ul li:nth-child(-n+5):after {
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+    content: '';
+    width: 1px;
+    height: 64px;
+    background-color: #ededed;
+}
+.love_bd ul li i span {
+    font-size: 16px;
+    color: #df3033;
+}
+/* 家用电器模块 */
+.jiadian {
+    margin-top: 30px;
+}
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+.box_hd i {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+}
+.tab_list {
+    float: right;
+    line-height: 30px;
+}
+.tab_list ul li {
+    float: left;
+    font-size: 12px;
+    color: #666;
+}
+.tab_list ul li a {
+    margin: 0 15px;
+}
+.floor .w {
+    margin-top: 30px;
+}
+.box_bd {
+    height: 361px;
+}
+.tab_list_item>div {
+    float: left;
+    height: 361px;
+}
+.col_210 {
+    width: 210px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 34px;
+    margin-left: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 33px;
+}
+.col_210 ul {
+    padding-left: 12px;
+}
+.col_329 {
+    width: 329px;
+}
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+.col_219 {
+    width: 219px;
+}
+.bb {
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+.fixfloor {
+    position: fixed;
+    width: 67px;
+    height: 200px;
+    top: 100px;
+    left: 10px;
+    background-color: skyblue;
+}
